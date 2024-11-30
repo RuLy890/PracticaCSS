@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicas CSS</title>
+
+    <link rel="stylesheet" href="ESTILOS/estilos.css">
+</head>
+<body>
+
+    <style>
+    
+        a:link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+    
+        a:active {
+            color: orange;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2.centrado {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .centrar-img {
+            width: 330px;
+            height: 413px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .color-2 {
+            color: rgb(136, 23, 136);
+        }
+
+        .verde {
+            color: green;
+        }
+        </style>
+
+    <h1>Estilos CSS</h1>
+
+    <h1 class="centrado">Biografia de Tim Berners-Lee</h1> <br>
+
+    <div>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg" width="" class="centrar-img">
+
+    </div>
+
+    <p>Berners-Lee trabajó en el <b class="xdp">CERN</b> desde junio hasta diciembre de 1980. Durante ese tiempo, propuso un proyecto basado en el hipertexto para facilitar la forma de compartir y la puesta al día de la información entre investigadores.<br/>
+        En este periodo también construyó un programa llamado <i><b>ENQUIRE</b></i> que no llegó a ver la luz.</p>
+
+    <p>Despues de dejar el <b>CERN</b>, en 1990, se fue a trabajar a la empresa de <i>John Poole Image Computer Systems Ltd</i>., pero regresó al CERN otra vez en 1984.</p>
+
+    <div>
+        
+
+    </div>
+
+    <h2 class="color-2">El naciemiento de la web</h2>
+
+    <p>En 1989, el CERN era el nodo de Internet mas grande en Europa y Berners-Lee vio la oportunidad de unir Internet y el hipertexto(<b>HTTP</b> y <b>HTML</b>),de lo  que surgiria la <b>World Wide Web</b></p>
+
+    <p>Desarrolló su primera propuesta de Web el 12 de marzo de 1989,2 pero no tuvo mucho eco,
+        por lo que en 1990 y con la ayuda de <i><b>Robert Cailliau</b></i>,hicieron una revisión que fue aceptada por su gerente,<b><i> Mike </i></b><i>Sendall</i>
+    </p>
+
+    <blockquote>Usó ideas similares a las que había usado en el sistema <em>Enquire</em>,para crear la <b>World Wide Web</b>,para esto diseñó y construyó el primer navegador (llamado WorldWideWeb y desarrollado con NEXTSTEP)
+    y el primer servidor Web al que llamó httpd (HyperText Transfer Protocol daemon).</blockquote>
+
+    <h2 class="color-2">La democratización de la web</h2>
+
+<p><b>El primer servidor Web</b> se encontraba en el CERN y fue puesto en línea el 6 de agosto de 1991. Esto proporcionó una explicación sobre lo que era el <strong>World Wide Web</strong>, cómo uno podría tener un navegador y cómo establecer un servidor Web. Este fue también el primer directorio Web del mundo, ya que Berners-Lee mantenía una lista de otros sitios Web aparte del suyo.</p>
+
+<p>Debido a que tanto <b>el software del servidor como el cliente fue liberado de forma gratuita</b> desde el <b>CERN</b>, el corazón de Internet europeo en esa época, su difusión fue muy rápida. El número de servidores web pasó de veintiséis en 1992 a doscientos en octubre de 1995, lo que refleja la velocidad de la difusión de internet.</p>
+
+
+<h2 class="color-2">El nacimiento del W3C</h2>
+
+<p>En 1994, entró en el <em>Laboratorio de Ciencias de la Computación e Inteligencia Artificial del Massachusetts Institute of Technology</em>. Se trasladó a EE.UU. y puso en marcha el <strong>W3C</strong>, que dirige actualmente.</p>
+
+<blockquote>El <strong>W3C</strong> es un organismo internacional de estandarización de tecnologías Web, dirigido conjuntamente por el <em>Instituto Tecnológico de Massachusetts</em>, el <b>ERCIM</b> francés y la Universidad de Keiō en Japón. Este organismo decidió que todos sus estándares fuesen libres, es decir, que los pudiese utilizar todo el mundo libremente sin coste alguno, lo que sin lugar a dudas fue una de las grandes razones para que la Web haya llegado a tener la importancia que tiene hoy en día.</blockquote>
+
+<p>En su libro <em>Tejiendo la red</em>, publicado en 1999, Berners-Lee explica por qué <b>la tecnología web es libre y gratuita. Se le considera al mismo tiempo el inventor y el protector de la web.</b>
+</p>
+
+
+<p>Fuente: <strong><em class="color-2">Wikipedia</em></strong></p>
+
+<p class="verde"><u>Wikipedia </u><u>Londres</u></p>
+
+<p><a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee">Más información sobre Tim Berners-Lee en Wikipedia</a></p>
+
+
+    <hr>
+
+    <div>
+
+        <h2>Tablas</h2>
+
+        
+
+        <table>
+            <tr>
+                <td>Websites</td>
+                <td>Certification</td>
+                <td>Tuition</td>
+                <td>Top Courses</td>
+            </tr>
+    
+            <tr>
+                <td>Freecode Camp</td>
+                <td>Yes</td>
+                <td>Free</td>
+                <td>Web Development and Design</td>
+            </tr>
+    
+            <tr>
+                <td>Udemy</td>
+                <td>Yes</td>
+                <td>Paid</td>
+                <td>Python and Machine Learning</td>
+            </tr>
+    
+            <tr>
+                <td>Coursera</td>
+                <td>Yes</td>
+                <td>Free and Paid</td>
+                <td>loT and AI</td>
+            </tr>
+            <tr>
+                <td colspan="4">Total Courses  What are you waiting for? Get Started now for free</td>
+            </tr>
+    
+        </table>
+
+    </div>
+
+
+    <h1>Modelo caja</h1>
+    <h2>Realizar la siguiente práctica</h2>
+
+    <div id="ContenedorPadre">
+        <div class="Contenedor">
+            <h1>Titulo del Articulo 1</h1>
+            <p>Imagen del articulo 1</p>
+            <p>Breve descripción del artículo</p>
+            <button class="color-3">Leer más</button>
+        </div>
+
+        <div class="Contenedor">
+            <h1>Titulo del Articulo 2</h1>
+            <p>Imagen del articulo 2</p>
+            <p>Breve descripción del artículo</p>
+            <button class="color-3">Leer más</button>
+        </div>
+
+        <div class="Contenedor">
+            <h1>Titulo del Articulo 3</h1>
+            <p>Imagen del articulo 3</p>
+            <p>Breve descripción del artículo</p>
+            <button class="color-3">Leer más</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2>Añadir imagen</h2>
+
+    <div id="ContenedorPadre">
+        <div class="Contenedor">
+            <h1>Titulo del Articulo 1</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Jaguar_at_Edinburgh_Zoo.jpg/300px-Jaguar_at_Edinburgh_Zoo.jpg" alt="" width="300px" height="300px">
+            <p>Breve descripción del artículo</p>
+            <button class="color-4">Leer más</button>
+        </div>
+
+        <div class="Contenedor">
+            <h1>Titulo del Articulo 2</h1>
+            <img src="https://i.pinimg.com/736x/d4/7e/9e/d47e9e4a28894bfbd416b4f53ca15b95.jpg" alt="" width="300px" height="300px">
+            <p>Breve descripción del artículo</p>
+            <button class="color-4">Leer más</button>
+        </div>
+
+        <div class="Contenedor">
+            <h1>Titulo del Articulo 3</h1>
+            <img src="https://img.freepik.com/foto-gratis/belleza-otonal-abstracta-patron-venas-hoja-multicolor-generado-ia_188544-9871.jpg" alt="" width="300px" height="300px">
+            <p>Breve descripción del artículo</p>
+            <button class="color-4">Leer más</button>
+        </div>
+    </div>
+    
+</body>
+</html>
